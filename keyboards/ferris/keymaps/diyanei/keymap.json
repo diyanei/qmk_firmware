@@ -3,7 +3,7 @@
   "notes": "",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "ferris/sweep",
-  "keymap": "ferris_sweep-frank_noirot",
+  "keymap": "ferris_sweep-diyanei",
   "layout": "LAYOUT_split_3x5_2",
   "layers": [
     [
@@ -38,8 +38,8 @@
       "KC_DOT",
       "KC_SLSH",
       "KC_LSFT",
-      "LT(5,KC_SPC)",
-      "LT(4,KC_BSPC)",
+      "LT(4,KC_SPC)",
+      "LT(3,KC_BSPC)",
       "TO(1)"
     ],
     [
@@ -79,42 +79,6 @@
       "TO(2)"
     ],
     [
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_MUTE",
-      "KC_VOLU",
-      "KC_BRIU",
-      "KC_BTN1",
-      "KC_BTN3",
-      "KC_BTN2",
-      "KC_NO",
-      "KC_LSFT",
-      "KC_LCTL",
-      "KC_LGUI",
-      "KC_LALT",
-      "KC_VOLD",
-      "KC_BRID",
-      "KC_MS_L",
-      "KC_MS_D",
-      "KC_MS_U",
-      "KC_MS_R",
-      "KC_ACL0",
-      "KC_BTN2",
-      "KC_BTN3",
-      "KC_BTN1",
-      "KC_WBAK",
-      "KC_WFWD",
-      "KC_WH_L",
-      "KC_WH_D",
-      "KC_WH_U",
-      "KC_WH_R",
-      "TO(0)",
-      "KC_BTN1",
-      "KC_BTN2",
-      "TO(3)"
-    ],
-    [
       "KC_F1",
       "KC_F2",
       "KC_F3",
@@ -146,8 +110,8 @@
       "KC_RCTL",
       "KC_RSFT",
       "TO(0)",
-      "LT(5,KC_SPC)",
-      "LT(4,KC_BSPC)",
+      "LT(4,KC_SPC)",
+      "LT(3,KC_BSPC)",
       "TO(0)"
     ],
     [
